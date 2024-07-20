@@ -1,0 +1,66 @@
+.main{
+    background-color:deepskyblue;
+    color:brown;
+}
+/*one html element having twp class*/
+.font1{
+    font-family:  serif;
+    font-weight:normal;
+}
+
+.sub{
+    background-color: blueviolet;
+    color:black;
+}
+.font2{
+    font-family: cursive;
+    font-weight: bold;
+}
+
+.end{
+    background-color:darkgreen;
+    color: black;
+}
+.font3{
+    font-family:cursive;
+    font-weight:inherit;
+}
+
+
+/*attribute selector based in exact value of the attribute*/
+
+a[href="https://www.google.com/"]{
+    background-color: chocolate;
+}
+ 
+/*style all the a tags which hava link to cars*/
+
+ a[href="https://www.carwale.com/toyota-cars/innova-crysta/"]{
+  background-color: deeppink;  
+ }
+
+ /*style all the a tags which hava id as the attribute value*/
+
+ a[href ^="#"]{
+    background-color:crimson;
+}
+
+/*style all the a tags which take us to adifferent html page*/
+
+a[target="_blank"]{
+    background-color:gold;
+}
+
+/*style all the a tags which help us open a pdf*/
+/* case sensitive */
+
+a[herf=".pdf"]{
+    background-color: blanchedalmond;
+}
+
+
+/*style the main div and a border to it*/
+
+div[class ^=" main"]{
+    border: 5px solid rgb(146, 7, 7);
+}

@@ -1,0 +1,74 @@
+<h1>Course Registration Form</h1>
+<form action="https://www.carwale.com/toyota-cars/innova-crysta/">
+   <fieldset>
+    <legend>Personal details</legend>
+     <table>
+        <tr>
+            <td><label>First name:</label></td>
+            <td><input type="text" required><br></td>
+        </tr>
+        <tr>
+            <td><label>Sur name:</label></td>
+            <td><input type="text" required><br></td>
+        </tr>
+        <tr>
+            <td><label>Phone number:</label></td>
+            <td><input type="tel" required><br></td>
+        </tr>
+        <tr>
+            <td><label>Email:</label></td>
+            <td><input type="text" required><br></td>
+        </tr>
+        <tr>
+            <td><label>Password:</label></td>
+            <td><input type="password"><br></td>
+        </tr>
+        <tr>
+            <td><label>Confirm Password:</label></td>
+            <td><input type="password"><br></td>
+        </tr>
+        <tr>
+            <td><label>DOB:</label></td>  
+            <td><input type="date"><br></td>
+        </tr>
+        <tr>
+            <td><label>Gender:</label></td>
+            <td><input type="radio" name="gender" value="male">Male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="custom">Custom</td><br>
+        </tr>
+        <tr>
+            <td><label>Select Country:</label></td>
+           <td><select>
+               <option>INDIA</option>
+               <option>USA</option>
+               <option>AUSTRAILIA</option>
+               <option>SOUTH AFRICA</option>
+           </select></td>
+        </tr>
+        <tr> 
+            <td><label>Upload picture:</label></td>
+            <td><input type="file" name="pic"></td>
+        </tr>
+        <tr> <td><input type="reset"></td></tr>
+       
+    </table>
+   </fieldset>
+   <fieldset>
+    <legend>Course Details</legend>
+        <label>Select Course</label>
+        <select name="course">
+            <option values="JFS">Java Full Stack</option>
+            <option values="JFS">core Java</option>
+            <option values="JFS">Python Full Stack</option>
+            <option values="JFS">Python for Data Science</option>
+        </select><br>
+       <label>Delivery Mode</label>
+       <input type="checkbox" name="delivery" value="ON">Online
+       <input type="checkbox" name="delivery" value="OFF">Offline<br>
+       <label>Comments</label><br>
+       <textarea col="30" row="10"></textarea><br>
+   </fieldset><br>
+   <input type="Submit">
+</form>
+ 

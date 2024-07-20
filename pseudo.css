@@ -1,0 +1,24 @@
+/*img {
+    border: 2px solid red;
+}*/
+
+
+
+/*style all the hyper link img tags which are the descendants of <a> tag and only chlid*/
+
+/*a[href] img:only-child{
+    border: 5px solid red;
+}*/
+
+/*a[href] > img:only-child{
+    border: 5px solid green;
+}*/
+
+
+/*style all the  only child*/
+
+/*.only-child{
+    background-color: fuchsia;
+}*/
+
+

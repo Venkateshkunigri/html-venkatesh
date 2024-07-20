@@ -1,0 +1,63 @@
+/*div > h2{
+    background-color:blue ;
+}
+div > h1{background-color: blueviolet;}
+
+
+
+div li{
+    background-color: brown;
+}*/
+
+
+/*body {
+    background-color: aquamarine;
+}
+
+h1 {
+    background-color: crimson;
+    color:black;
+}
+
+body > p{
+    background-color: aqua ;
+}
+div  p{
+    background-color: darkorchid;
+    color: dodgerblue; 
+}
+div > div  p{
+    background-color:black;
+    color:brown
+}*/
+
+
+/*ol {
+    background-color: darkviolet;
+}
+ul  {
+    background-color: darkslategray;
+}
+
+.firstli ~ li{
+    background-color: deeppink ;
+}
+.firstli + li{
+    background-color: firebrick;
+}
+.firstli + li ~ li{
+    background-color: greenyellow;
+}
+ol + h3 + ul{
+    background-color: lightsalmon;
+}
+.firstli,.firstli + li{
+    background-color: red;
+}*/
+
+
+
+/*style all img's which hava an alt attribute*/
+img[alt]{
+    border: 2px solid red;
+}
